@@ -33,8 +33,10 @@ html, body {
     font-weight: 100;
 }
 
-#video{
-    height: 10vh;
-    width: 10vw;
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: fixed;
+    /* width: 80%; */
 }
