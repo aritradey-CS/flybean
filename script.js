@@ -12,3 +12,14 @@ gsap.to("#nav",{
     }
 });
 
+gsap.to("#main",{
+    backgroundColor : "#000",
+    scrollTrigger : {
+        trigger: "#main",
+        scroller : "body",
+        markers: true,
+        start:"top -40%",
+        end : "top -80%",
+        scrub:2
+    }
+});
