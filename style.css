@@ -158,9 +158,29 @@ video{
 #about-us{
     height: 40vh;
     width: 100%;
-    padding: 0 40px;
-    background-color: blue;
+    padding: 0px;
+    /* background-color: blue; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
+}
+
+#about-us-in{
+    width: 40%;
+    text-align: center;
+}
+#about-us-in h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+#about-us-in p{
+font-size: 20px;
+line-height: 26px;
+}
+
+#about-us img{
+    height: 150px;
+    width: 100px;
+    border-radius: 20%;
 }
