@@ -195,10 +195,24 @@ line-height: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 70px;
 }
 
 .card{
     height: 80%;
     width: 20%;
     background-color: blue;
+    border-radius: 5%;
+    background-position: center;
+}
+
+#card1{
+    background-image: url(https://images.unsplash.com/photo-1597239450996-ea7c2c564412?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+}
+
+#card2{
+    background-image: url(https://images.unsplash.com/photo-1581093196867-ca3dba3c721b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+}
+#card3{
+    background-image: url(https://images.unsplash.com/photo-1615906655593-ad0386982a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
 }
