@@ -154,3 +154,13 @@ video{
         transform: translateY(0);
     }
 }
+
+#about-us{
+    height: 40vh;
+    width: 100%;
+    padding: 0 40px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
