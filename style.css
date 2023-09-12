@@ -117,6 +117,7 @@ video{
     overflow-x: auto;
     overflow-y: hidden;
     position: relative;
+    margin-top: 0%;
     z-index: 10;
 }
 
@@ -134,7 +135,7 @@ video{
 
 #scroller h4 {
     display: inline-block;
-    font-size: 140px;
+    font-size: 110px;
     font-weight: 800px;
     font-family: Tahoma ;
     transition: all linear 0.5;
@@ -159,6 +160,7 @@ video{
     height: 40vh;
     width: 100%;
     padding: 0px;
+    margin-top: 5%;
     /* background-color: blue; */
     display: flex;
     align-items: center;
@@ -180,7 +182,7 @@ line-height: 26px;
 }
 
 #about-us img{
-    height: 150px;
-    width: 100px;
-    border-radius: 20%;
+    height: 250px;
+    width: 200px;
+    border-radius: 10%;
 }
