@@ -200,4 +200,5 @@ line-height: 26px;
 .card{
     height: 80%;
     width: 20%;
+    background-color: blue;
 }
