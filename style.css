@@ -385,14 +385,14 @@ video {
 #footer {
   height: 40vh;
   width: 100%;
-  background-color: #15bd2b;
-  background: linear-gradient(to left bottom green rgb(218, 35, 35));
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 6.5vw;
-padding: 0 100px;
+  /* background-color: #15bd2b; */
+  background: linear-gradient(to left bottom green 0%,red 80%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.5vw;
+  padding: 0 100px;
 }
 
 #footer > img {
@@ -401,14 +401,17 @@ padding: 0 100px;
   height: 10.5vh;
   z-index: 0;
 }
-
-#f2 #f3 {
-width: fit-content;
-position: relative;
-z-index: 2;
+#f1 img{
+  height: 100px;
+}
+#f2,
+#f3 {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
 }
 
-#f2 h4{
+#f2 h4 {
   font-size: 1.6vw;
   white-space: nowrap;
   text-transform: uppercase;
@@ -416,7 +419,7 @@ z-index: 2;
   font-weight: 900;
   margin-bottom: 8px;
 }
-#f3 h4{
+#f3 h4 {
   font-size: 1.6vw;
   white-space: nowrap;
   text-transform: uppercase;
