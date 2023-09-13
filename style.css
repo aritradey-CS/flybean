@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Space+Grotesk:wght@600&display=swap");
 
 * {
   margin: 0;
@@ -25,7 +26,7 @@ body {
 #cursor-blur {
   height: 400px;
   width: 400px;
-  background-color: rgba(165, 192, 43, 0.137);
+  background-color: rgba(218, 230, 226, 0.137);
   border-radius: 50%;
   position: fixed;
   filter: blur(50px);
@@ -35,7 +36,6 @@ body {
 #nav {
   height: 100px;
   width: 100%;
-  /* background-color: black; */
   display: flex;
   align-items: center;
   padding: 0 110px;
@@ -55,6 +55,40 @@ body {
   cursor: pointer;
   font-size: 1vw;
 }
+
+/* Media queries for screens with a max width of 768px (mobile devices) */
+@media screen and (max-width: 768px) {
+  #nav {
+    padding: 0 2%;
+    gap: 10px;
+  }
+
+  #nav img {
+    height: 8vh;
+  }
+
+  #nav h4 {
+    font-size: 12px;
+  }
+}
+
+/* Styles for larger screens (desktop and tablet) */
+@media screen and (min-width: 769px) {
+  #nav {
+    padding: 0 10%;
+  }
+
+  #nav img {
+    height: 15vh;
+  }
+
+  #nav h4 {
+    font-size: 18px;
+  }
+}
+
+/* The rest of your CSS code remains the same */
+/* ... */
 
 video {
   height: 100%;
@@ -385,8 +419,11 @@ video {
 #footer {
   height: 40vh;
   width: 100%;
-  background-color: #15bd2b;
-  /* background: linear-gradient(to left bottom green 0%,red 80%); */
+  background: linear-gradient(
+    to left bottom,
+    rgb(128, 0, 90) 10%,
+    rgb(13, 0, 14) 80%
+  );
   position: relative;
   display: flex;
   align-items: center;
@@ -401,13 +438,14 @@ video {
   height: 10.5vh;
   z-index: 0;
 }
-#f1 img{
+#f1 img {
   height: 100px;
 }
 
 #f1,
 #f2,
-#f3 {
+#f3,
+#f4 {
   width: fit-content;
   position: relative;
   z-index: 99;
@@ -417,7 +455,9 @@ video {
   font-size: 1.6vw;
   white-space: nowrap;
   text-transform: uppercase;
-  color: #050001;
+  color: #fcfcfc;
+  font-family: "Comfortaa", cursive;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 900;
   margin-bottom: 8px;
 }
@@ -425,8 +465,42 @@ video {
   font-size: 1.6vw;
   white-space: nowrap;
   text-transform: uppercase;
-  color: #050001;
+  color: #fcfcfc;
+  font-family: "Comfortaa", cursive;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 900;
   line-height: 20px;
   margin-bottom: 8px;
+}
+#f4 h4 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #fcfcfc;
+  font-family: "Comfortaa", cursive;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+#footer #f1 img {
+  height: 150px;
+  width: 150px;
+  /* background-color: red; */
+  background-color: transparent;
+  /* border: 2px solid; */
+  position: absolute;
+  /* display:flex; */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  left: -8vw;
+  bottom: -5%;
+  transition: all ease 0.5s;
+}
+#footer #f1 img:hover {
+  scale: 0.4;
+  background-color: transparent;
 }
