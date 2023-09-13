@@ -403,5 +403,18 @@ z-index: 2;
 }
 
 #f2 h4{
-  
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #050001;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+#f3 h4{
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #050001;
+  font-weight: 900;
+  margin-bottom: 8px;
 }
