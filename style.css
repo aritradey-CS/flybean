@@ -387,6 +387,12 @@ video {
   width: 100%;
   background-color: #15bd2b;
   background: linear-gradient(to left bottom green rgb(218, 35, 35));
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6.5vw;
+padding: 0 100px;
 }
 
 #footer > img {
@@ -396,7 +402,7 @@ video {
   z-index: 0;
 }
 
-#f2, #f3 {
+#f2 #f3 {
 width: fit-content;
 position: relative;
 z-index: 2;
