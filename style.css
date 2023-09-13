@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
@@ -12,7 +12,15 @@ html, body {
 }
 
 #nav {
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 0 150px0;
+    justify-content: flex-start;
+}
+
+#nav img {
+    height: 80px;
 }
