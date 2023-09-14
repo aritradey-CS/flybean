@@ -17,10 +17,11 @@ html, body {
     background-color: blueviolet;
     display: flex;
     align-items: center;
-    padding: 0 150px0;
+    padding: 0 110px;
+    gap: 40px;
     justify-content: flex-start;
 }
-
+ 
 #nav img {
     height: 80px;
 }
