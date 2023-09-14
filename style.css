@@ -125,7 +125,7 @@ video{
     overflow-x: auto;
     overflow-y: hidden;
     position: relative;
-    margin-top: 0%;
+    margin-top: 5%;
     z-index: 10;
 }
 
@@ -136,7 +136,7 @@ video{
     display: inline-block;
     white-space:nowrap;
     animation-name: scroll;
-    animation-duration: 20s;
+    animation-duration: 40s;
     animation-timing-function: linear;
     animation-iteration-count: infinite ;
 }
@@ -211,9 +211,12 @@ line-height: 26px;
 .card{
     height: 80%;
     width: 20%;
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 5%;
+    background-size: cover;
     background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
 }
 
 #card1{
