@@ -60,3 +60,19 @@ h4all.forEach(function (elem) {
       (crsr.style.backgroundColor = "rgba(255, 255, 255, 0.521)");
   });
 });
+
+
+gsap.from("#about-us img, #about-us-in",{
+    y:50,
+    opacity:0,
+    duration:1,
+    // stagger:0.4, 
+    scrollTrigger:{
+        trigger:"#about-us",
+        scroller:"body",
+        markers:ture,
+        start:"top 60%",
+        end:"top 55%",
+        scrub:3 
+    }
+});
