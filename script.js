@@ -1,5 +1,6 @@
 var crsr = document.querySelector("#cursor")
 var blur = document.querySelector("#cursor-blur")
+
 document.addEventListener("mousemove", function(dets){
     crsr.style.left = dets.x + 15 + "px"
     crsr.style.top = dets.y + 15 + "px"
@@ -30,7 +31,19 @@ gsap.to("#main",{
         scroller : "body",
         // markers: true,
         start:"top -25%",
-        end : "top -70%",
+        end : "top -60%",
+        scrub:2
+    }
+});
+
+gsap.to("#page2",{
+    backgroundColor : "#000",
+    scrollTrigger : {
+        trigger: "#main",
+        scroller : "body",
+        // markers: true,
+        start:"top 0%",
+        end : "top -90%",
         scrub:2
     }
 });
