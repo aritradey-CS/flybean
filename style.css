@@ -42,6 +42,7 @@ video{
     width: 100%;
     object-fit: cover;
     position: fixed;
+    z-index: -1;
     /* width: 80%; */
 }
 
@@ -71,8 +72,10 @@ video{
     content: "READ. WRITE. SHARE";
     position: absolute;
     color:yellowgreen;
-    top: -4px;
-    left: -4px;
+    bottom: -5px;
+    left: -3px;
+    -webkit-text-stroke: 2px #199dbe;
+    z-index: -1;
 }
 
 #page1 h2{
@@ -80,4 +83,9 @@ video{
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
 }
