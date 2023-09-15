@@ -1,5 +1,5 @@
 gsap.to("#nav",{
-    backgroundColor: black,
+    backgroundColor : black,
     duration:1,
     delay:1
 })
