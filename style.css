@@ -29,6 +29,7 @@ html, body {
  
 #nav img {
     height: 80px;
+    
 }
 
 #nav h4 {
@@ -63,7 +64,15 @@ video{
 #page1 h1{
     font-size: 120px;
     font-weight: 600;
-    
+    position: relative;
+}
+
+#page1 h1::before {
+    content: "READ. WRITE. SHARE";
+    position: absolute;
+    color:yellowgreen;
+    top: -4px;
+    left: -4px;
 }
 
 #page1 h2{
