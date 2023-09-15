@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
 }
 
 html, body {
@@ -14,14 +14,27 @@ html, body {
 #nav {
     height: 100px;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     align-items: center;
     padding: 0 110px;
     gap: 40px;
     justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
 }
  
 #nav img {
     height: 80px;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
