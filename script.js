@@ -1,3 +1,8 @@
+document.addEventListener("mousemove", function(dets){
+    
+})
+
+
 gsap.to("#nav",{
     backgroundColor : "#000 ",
     duration:0.5,
