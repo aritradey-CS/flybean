@@ -15,9 +15,9 @@ html, body {
 }
 
 #cursor{
-    height: 25px;
-    width: 25px;
-    background-color: chartreuse;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(128, 255, 0, 0.521);
     border-radius: 50%;
     position: fixed;
     z-index: 99;
@@ -25,10 +25,11 @@ html, body {
 #cursor-blur{
     height: 300px;
     width: 300px;
-    background-color: rgb(132, 180, 83);
+    background-color: rgba(210, 245, 174, 0.089);
     border-radius: 50%;
     position: fixed;
-    z-index: 99;
+    filter: blur(30px);
+    z-index: 9;
 }
 
 #nav {
@@ -77,6 +78,7 @@ video{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 10;
 }
 
 #page1 h1{
@@ -105,5 +107,7 @@ video{
 #page2 {
     height: 100vh;
     width: 100%;
+    z-index: 10;
+
 }
 
