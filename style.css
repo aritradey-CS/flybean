@@ -23,12 +23,12 @@ html, body {
     z-index: 99;
 }
 #cursor-blur{
-    height: 300px;
-    width: 300px;
-    background-color: rgba(210, 245, 174, 0.089);
+    height: 400px;
+    width: 400px;
+    background-color: rgba(118, 192, 43, 0.062);
     border-radius: 50%;
     position: fixed;
-    filter: blur(30px);
+    filter: blur(50px);
     z-index: 9;
 }
 
