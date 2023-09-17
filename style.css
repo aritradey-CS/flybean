@@ -111,3 +111,22 @@ video{
 
 }
 
+#scroller{
+    /* background-color: brown; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#scroller-in{
+    display: inline-block;
+}
+
+#scroller h4 {
+    display: inline-block;
+    font-size: 140px;
+    font-weight: 800px;
+    font-family: Tahoma ;
+    margin-right: 20px;
+    -webkit-text-stroke: 2px rgba(71, 228, 32, 0.774);
+}
