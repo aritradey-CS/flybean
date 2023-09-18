@@ -295,8 +295,8 @@ video {
 #page3{
   height: 70vh;
   width: 100%;
-  background-color: black;
   display: flex;
+  background-color: black;
   align-items: center;
   justify-content: center;
   gap: 100px;
@@ -314,21 +314,19 @@ video {
 .board h2 {
   height: 100%;
   width: 100%;
-  background-color: rgb(60, 210, 30);
+  /* background-color: rgb(60, 210, 30); */
   display: flex;
   color: #031114;
   font-weight: 800;
   align-items: center;
   justify-content: center;
   transition: all ease 0.8s;
-  font-size: 40px;
+  font-size: 2vw;
   position: absolute;
   z-index: 1;
 }
 
-/* #pb{
-  color: black;
-} */
+
 .board img {
   height: 100%;
   width: 100%;
@@ -337,6 +335,19 @@ video {
   scale: 1.1;
 }
 
+.board:hover h2{
+  color: white;
+  background-color: transparent;
+}
 .board:hover img {
   scale: 1;
+}
+
+#page3 h1{
+  font-size: 6.4vw;
+  position: absolute;
+  top: -4%;
+  font-weight: 900;
+  color: black;
+  -webkit-text-stroke: 2px white;
 }
