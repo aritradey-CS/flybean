@@ -302,8 +302,39 @@ video {
   gap: 100px;
 }
 
-.elem{
+.board{
   height: 50vh;
   width: 20vw;
   overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.board h2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(60, 210, 30);
+  display: flex;
+  color: #031114;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.8s;
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* #pb{
+  color: black;
+} */
+.board img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.board:hover h2 {
+  color: #fff;
+  background-color: transparent;
 }
