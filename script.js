@@ -63,6 +63,8 @@ h4all.forEach(function (elem) {
 
 gsap.from("#about-us img, #about-us-in", {
   y: 50,
+  scale: 0.5,
+
   opacity: 0,
   duration: 1,
   // stagger:0.4,
@@ -77,11 +79,11 @@ gsap.from("#about-us img, #about-us-in", {
 });
 
 gsap.from(".card", {
-  scale: 0.8,
+  scale: 0.5,
   opacity:0,
   y: 20,
   duration: 1,
-  stagger: 0.1,
+  // stagger: 0.1,
   scrollTrigger: {
     trigger: ".card",
     scroller: "body",
