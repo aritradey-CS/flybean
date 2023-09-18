@@ -83,7 +83,7 @@ gsap.from(".card", {
   opacity:0,
   y: 20,
   duration: 1,
-  // stagger: 0.1,
+  stagger: 0.1,
   scrollTrigger: {
     trigger: ".card",
     scroller: "body",
@@ -92,4 +92,31 @@ gsap.from(".card", {
     end: "top 65%",
     scrub: 1,
   },
+});
+
+
+gsap.from("#colon1", {
+  y:-70,
+  x: -70,
+  scrollTrigger:{
+    trigger:"#colon1",
+    scroller:"body",
+    // markers:true,
+    start:"top 55%",
+    end:"top 45%",
+    scrub:4
+  }
+});
+
+gsap.from("#colon2", {
+  y:+70,
+  x: +70,
+  scrollTrigger:{
+    trigger:"#colon1",
+    scroller:"body",
+    // markers:true,
+    start:"top 55%",
+    end:"top 45%",
+    scrub:4
+  }
 });
