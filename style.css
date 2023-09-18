@@ -110,6 +110,31 @@ video {
     font-weight: 500;
     width: 40%;
 }
+#page1 .down-arrow{
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  background-color: transparent;
+  border: 2px solid;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  left: -2%;
+  bottom: 0%;
+  transition: all ease 0.5s;
+}
+
+#page1 .down-arrow:hover{
+  scale: 0.4;
+  background-color: #050001;
+}
+.ri-arrow-down-line{
+  font-size: 70px !important; 
+  font-weight: 70px !important;
+  
+}
 #page2 {
     /* background-color: black; */
     min-height: 100vh;
@@ -359,3 +384,8 @@ video {
   /* -webkit-text-stroke: 2px white; */
 }
 
+#footer{
+  height: 40vh;
+  width: 100%;
+    background: linear-gradient(to left bottom green rgb(218, 35, 35));
+}
