@@ -291,3 +291,18 @@ video {
     right: 10%;
     bottom: 25%;
 }
+
+#page3{
+  height: 50vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elem{
+  height: 70%;
+  width: 20%;
+  overflow: hidden;
+}
