@@ -99,18 +99,18 @@ video {
 }
 
 #page1 h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #page1 p {
-    font-size: 1.2vw;
-    font-weight: 500;
-    width: 40%;
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 40%;
 }
-#page1 .down-arrow{
+#page1 .down-arrow {
   height: 150px;
   width: 150px;
   background-color: red;
@@ -126,21 +126,20 @@ video {
   transition: all ease 0.5s;
 }
 
-#page1 .down-arrow:hover{
+#page1 .down-arrow:hover {
   scale: 0.4;
   background-color: #050001;
 }
-.ri-arrow-down-line{
-  font-size: 70px !important; 
+.ri-arrow-down-line {
+  font-size: 70px !important;
   font-weight: 70px !important;
-  
 }
 #page2 {
-    /* background-color: black; */
-    min-height: 100vh;
-    width: 100%;
-    z-index: 10;
-    margin-top: -5%;
+  /* background-color: black; */
+  min-height: 100vh;
+  width: 100%;
+  z-index: 10;
+  margin-top: -5%;
 }
 
 #scroller {
@@ -277,47 +276,47 @@ video {
   font-size: 18px;
 }
 
-.card:hover .overlay{
-    opacity: 1;
+.card:hover .overlay {
+  opacity: 1;
 }
 
-.card:hover{
-    transform: rotate3d(-1,1,0,20deg);
+.card:hover {
+  transform: rotate3d(-1, 1, 0, 20deg);
 }
 
-#quote{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+#quote {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }
 
-#quote>p{
-    font-size: 30px;
-    font-weight: 700;
-    width: 55%;
-    line-height: 40px;
-    text-align: center;
+#quote > p {
+  font-size: 30px;
+  font-weight: 700;
+  width: 55%;
+  line-height: 40px;
+  text-align: center;
 }
 
-#quote img{
-    position: absolute;
-    height: 10vh;
+#quote img {
+  position: absolute;
+  height: 10vh;
 }
 
-#quote #colon1{
-    left: 10%;
-    top: 25%;
+#quote #colon1 {
+  left: 10%;
+  top: 25%;
 }
-#quote #colon2{
-    right: 10%;
-    bottom: 25%;
+#quote #colon2 {
+  right: 10%;
+  bottom: 25%;
 }
 
-#page3{
+#page3 {
   height: 70vh;
   width: 100%;
   display: flex;
@@ -328,7 +327,7 @@ video {
   position: relative;
 }
 
-.board{
+.board {
   height: 50vh;
   width: 20vw;
   overflow: hidden;
@@ -367,15 +366,14 @@ video {
 }
 
 .board.board2 h2 {
-  
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 2.5vw;
 }
-#page3 h1{
+#page3 h1 {
   font-size: 3vw;
   margin: 0;
 }
-#page3 h2{
+#page3 h2 {
   font-size: 2vw;
   position: absolute;
   top: +35%;
@@ -384,8 +382,26 @@ video {
   /* -webkit-text-stroke: 2px white; */
 }
 
-#footer{
+#footer {
   height: 40vh;
   width: 100%;
-    background: linear-gradient(to left bottom green rgb(218, 35, 35));
+  background-color: #15bd2b;
+  background: linear-gradient(to left bottom green rgb(218, 35, 35));
+}
+
+#footer > img {
+  position: absolute;
+  left: 0;
+  height: 10.5vh;
+  z-index: 0;
+}
+
+#f2, #f3 {
+width: fit-content;
+position: relative;
+z-index: 2;
+}
+
+#f2 h4{
+  
 }
