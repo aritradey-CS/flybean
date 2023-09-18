@@ -326,7 +326,9 @@ video {
   z-index: 1;
 }
 
-
+/* #pb{
+  color: black;
+} */
 .board img {
   height: 100%;
   width: 100%;
@@ -335,19 +337,25 @@ video {
   scale: 1.1;
 }
 
-.board:hover h2{
-  color: white;
-  background-color: transparent;
-}
 .board:hover img {
   scale: 1;
 }
 
-#page3 h1{
-  font-size: 6.4vw;
-  position: absolute;
-  top: -4%;
-  font-weight: 900;
-  color: black;
-  -webkit-text-stroke: 2px white;
+.board.board2 h2 {
+  
+  color: #ffffff; 
+  font-size: 2.5vw;
 }
+#page3 h1{
+  font-size: 3vw;
+  margin: 0;
+}
+#page3 h2{
+  font-size: 2vw;
+  position: absolute;
+  top: +35%;
+  font-weight: 900;
+  /* color: black; */
+  /* -webkit-text-stroke: 2px white; */
+}
+

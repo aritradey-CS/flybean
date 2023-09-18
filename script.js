@@ -122,3 +122,18 @@ gsap.from("#colon2", {
 });
 
 
+gsap.from(".board", {
+  scale: 0.5,
+  opacity:0,
+  y: 20,
+  duration: 1,
+  stagger: 0.1,
+  scrollTrigger: {
+    trigger: ".board",
+    scroller: "body",
+    // markers:true,
+    start: "top 70%",
+    end: "top 65%",
+    scrub: 1,
+  },
+});
