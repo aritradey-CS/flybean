@@ -295,11 +295,12 @@ video {
 #page3{
   height: 70vh;
   width: 100%;
-  background-color: aqua;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
+  position: relative;
 }
 
 .board{
@@ -332,9 +333,10 @@ video {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: all ease 0.5s;
+  scale: 1.1;
 }
 
-.board:hover h2 {
-  color: #fff;
-  background-color: transparent;
+.board:hover img {
+  scale: 1;
 }
