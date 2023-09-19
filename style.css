@@ -60,7 +60,8 @@ body {
 @media screen and (max-width: 768px) {
   #nav {
     height: 60px;
-    padding: 0 2%;
+    width: 100px;
+    padding: 0;
     gap: 8px;
   }
 
@@ -81,6 +82,7 @@ video {
   z-index: -1;
   /* width: 80%; */
 }
+
 
 #main {
   position: relative;
@@ -176,6 +178,12 @@ video {
   font-size: 70px !important;
   font-weight: 70px !important;
 }
+
+
+
+
+
+
 #page2 {
   /* background-color: black; */
   min-height: 100vh;

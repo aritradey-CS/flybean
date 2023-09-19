@@ -34,6 +34,9 @@ gsap.to("#main", {
   },
 });
 
+
+
+
 gsap.to("#page2", {
   backgroundColor: "#000",
   scrollTrigger: {
@@ -153,9 +156,25 @@ gsap.from(".board", {
   },
 });
 
+// In your JavaScript (style.js)
+// Use event listeners to associate functions with user interactions
+
+// Scroll to the top function (for "Back to Top" button)
 function scrollToTop() {
   window.scrollTo({
     top: 0,
     behavior: "smooth",
   });
 }
+
+// Get a reference to the button element
+const scrollToBottomBtn = document.getElementById('scrollToBottomBtn');
+
+// Add a click event listener to the button
+scrollToBottomBtn.addEventListener('click', function () {
+  // Scroll to the bottom of the page smoothly
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  });
+});
