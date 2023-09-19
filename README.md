@@ -3,5 +3,5 @@ A stunning and responsive website with a unique design, combining bold visuals, 
 https://aritradey-cs.github.io/flybean/
 
 ![image](https://github.com/aritradey-CS/flybean/assets/81703791/470ad512-749b-4e45-873f-4b3398fb80af)
-https://aritradey-cs.github.io/flybean/
+
 ![image](https://github.com/aritradey-CS/flybean/assets/81703791/8c13f9f8-cc94-40cf-87ac-2eec81a14d75)
