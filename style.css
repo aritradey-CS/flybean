@@ -258,11 +258,15 @@ video {
   width: 40%;
   text-align: center;
 }
-/* Media queries for responsiveness */
+
 #about-us-in h3 {
   font-size: 50px;
   font-weight: 800;
   margin-bottom: 40px;
+}
+#about-us-in p {
+  font-size: 20px;
+  line-height: 26px;
 }
 @media screen and (max-width: 768px) {
   #about-us {
@@ -275,21 +279,29 @@ video {
   }
 
   #about-us-in h3{
-    font-size: 2vh;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: 10;
     margin-bottom: 2%;
+  }
+  #about-us-in p {
+    font-size: 15px;
+    line-height: 20px;
   }
 }
 
-#about-us-in p {
-  font-size: 20px;
-  line-height: 26px;
-}
 
 #about-us img {
   height: 250px;
   width: 200px;
   border-radius: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  #about-us img {
+    height: 65px;
+    width: 70px;
+    border-radius: 10%;
+  }
 }
 
 #card-container {
