@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Space Grotesk', sans-serif; 
+  font-family: "Space Grotesk", sans-serif;
   color: #fff;
 }
 
@@ -427,8 +427,8 @@ video {
   }
 
   #quote > p {
-    font-size: 3vh; /* Adjust font size for smaller screens */
-    width: 88%; /* Adjust width for smaller screens */
+    font-size: 2vh; /* Adjust font size for smaller screens */
+    width: 70%; /* Adjust width for smaller screens */
     text-align: center;
   }
   #quote img {
@@ -438,11 +438,11 @@ video {
 
   #quote #colon1 {
     left: 10%;
-    top: 25%;
+    top: 28%;
   }
   #quote #colon2 {
-    right: 10%;
-    bottom: 25%;
+    right: 8%;
+    bottom: 28%;
   }
 }
 
@@ -525,7 +525,7 @@ video {
 
   #page3 h1 {
     font-size: 5vh;
-    margin-left: 25vw;
+    margin-left: 20vw;
     align-items: center;
     justify-content: center;
     /* margin-left: -15; Remove the 'px' */

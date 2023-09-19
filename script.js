@@ -97,7 +97,7 @@ gsap.from("#card1, #card2, #card3", {
 
 gsap.from(".card", {
   scale: 0.5,
-  opacity:0,
+  opacity: 0,
   y: 20,
   duration: 1,
   stagger: 0.1,
@@ -111,37 +111,35 @@ gsap.from(".card", {
   },
 });
 
-
 gsap.from("#colon1", {
-  y:-70,
+  y: -70,
   x: -70,
-  scrollTrigger:{
-    trigger:"#colon1",
-    scroller:"body",
+  scrollTrigger: {
+    trigger: "#colon1",
+    scroller: "body",
     // markers:true,
-    start:"top 55%",
-    end:"top 45%",
-    scrub:4
-  }
+    start: "top 55%",
+    end: "top 45%",
+    scrub: 4,
+  },
 });
 
 gsap.from("#colon2", {
-  y:+70,
+  y: +70,
   x: +70,
-  scrollTrigger:{
-    trigger:"#colon1",
-    scroller:"body",
+  scrollTrigger: {
+    trigger: "#colon1",
+    scroller: "body",
     // markers:true,
-    start:"top 55%",
-    end:"top 45%",
-    scrub:4
-  }
+    start: "top 55%",
+    end: "top 45%",
+    scrub: 4,
+  },
 });
-
 
 gsap.from(".board", {
   scale: 0.5,
-  opacity:0,
+  opacity: 0,
   y: 20,
   duration: 1,
   stagger: 0.1,
@@ -157,7 +155,7 @@ gsap.from(".board", {
 
 function scrollToTop() {
   window.scrollTo({
-    top:0,
-    behavior:'smooth'
+    top: 0,
+    behavior: "smooth",
   });
 }
