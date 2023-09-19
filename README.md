@@ -1,2 +1,2 @@
 # flybean
-Welcome to Flybean: a captivating React.js project with a stunning video backdrop, sleek navigation, and dynamic scrolling text. Explore our world of creativity and inspiration today!
+A stunning and responsive website with a unique design, combining bold visuals, elegant fonts, and smooth animations. The site offers seamless navigation, engaging content, and interactive hover effects. Whether you're on a desktop or mobile device, this website adapts beautifully to deliver an exceptional user experience.
