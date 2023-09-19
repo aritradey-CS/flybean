@@ -643,3 +643,30 @@ video {
   scale: 0.4;
   background-color: transparent;
 }
+@media screen and (max-width: 768px) {
+  #footer {
+    height: auto; /* Remove fixed height */
+    flex-direction:inherit; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally */
+    gap: 35px; /* Adjust gap between elements */
+    padding: 20px; /* Add some padding */
+    position: relative;
+  }
+
+  #footer > img {
+    position: top; /* Adjust image position */
+    height: 10px; /* Adjust the image size for smaller screens */
+    width: 10px;
+    margin-bottom: 0px; /* Add some space below the image */
+  }
+
+  #f1 img {
+    display:none; /* Hide the image on smaller screens */
+  }
+
+  #f2 h4,
+  #f3 h4,
+  #f4 h4 {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+}
