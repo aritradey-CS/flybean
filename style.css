@@ -57,7 +57,7 @@ body {
 }
 
 /* Media queries for screens with a max width of 768px (mobile devices) */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #nav {
     padding: 0 2%;
     gap: 8px;
@@ -82,7 +82,7 @@ body {
   #scroller h4{
     font-size: 20px;
     font-weight: 300;
-  }
+  } */
  
 #quote > p {
   font-size: 2vh;
@@ -91,7 +91,7 @@ body {
   line-height: 10px;
   text-align: center;
 }
-}
+
 
 
 
@@ -191,11 +191,10 @@ video {
   z-index: 10;
 }
 /* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #scroller {
-    margin-top: 2%; /* Adjust margin for smaller screens */
-  }
-}
+    margin-top: 2%;
+} */
 #scroller::-webkit-scrollbar {
   display: none;
 }
@@ -221,14 +220,14 @@ video {
   color: rgba(71, 228, 32, 0.774);
 }
 
-@keyframes scroll {
+/* @keyframes scroll {
   from {
     transform: translateX(-100%);
   }
   to {
     transform: translateY(0);
   }
-}
+} */
 
 #about-us {
   height: 40vh;
@@ -253,14 +252,14 @@ video {
   font-weight: 800;
   margin-bottom: 40px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #about-us {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    margin-top: 10%; /* Adjust margin for smaller screens */
+    flex-direction: column; 
+        margin-top: 10%; 
   }
 
   #about-us-in {
-    width: 80%; /* Adjust width for smaller screens */
+    width: 80%; 
   }
 
   #about-us-in h3{
@@ -268,7 +267,7 @@ video {
     font-weight: 200;
     margin-bottom: 2%;
   }
-}
+} */
 
 #about-us-in p {
   font-size: 20px;
@@ -303,16 +302,15 @@ video {
   overflow: hidden;
   transition: all ease 0.6s;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #card-container {
-    flex-direction: column; /* Stack cards vertically on smaller screens */
-    gap: 30px; /* Adjust gap for smaller screens */
-  }
+    flex-direction: column; 
+    gap: 30px; 
 
   .card {
-    width: 80%; /* Adjust card width for smaller screens */
+    width: 80%;
   }
-}
+} */
 
 
 #card1 {
@@ -376,17 +374,17 @@ video {
 }
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #quote {
-    flex-direction: column; /* Stack content vertically on smaller screens */
+    flex-direction: column; 
   }
 
   #quote > p {
-    font-size: 20px; /* Adjust font size for smaller screens */
-    width: 80%; /* Adjust width for smaller screens */
+    font-size: 20px; 
+    width: 80%; 
     text-align: center;
   }
-}
+} */
 
 
 #quote img {
@@ -431,7 +429,7 @@ video {
   font-weight: 800;
   align-items: center;
   justify-content: center;
-  transition: all ease 0.8s;
+  transition: all ease 0.5s;
   font-size: 2vw;
   position: absolute;
   z-index: 1;
@@ -444,7 +442,7 @@ video {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: all ease 0.5s;
+  transition: all ease 0.3s;
   scale: 1.1;
 }
 
