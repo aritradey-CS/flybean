@@ -78,6 +78,23 @@ gsap.from("#about-us img, #about-us-in", {
   },
 });
 
+gsap.from("#card1, #card2, #card3", {
+  y: 50,
+  scale: 0.5,
+
+  opacity: 0,
+  duration: 1,
+  // stagger:0.4,
+  scrollTrigger: {
+    trigger: "#about-us",
+    scroller: "body",
+    // markers: true,
+    start: "top 60%",
+    end: "top 55%",
+    scrub: 3,
+  },
+});
+
 gsap.from(".card", {
   scale: 0.5,
   opacity:0,
